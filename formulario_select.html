@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Select</title>
+</head>
+<body>
+
+    <form action="C:\xampp\htdocs\DesarrolloWeb\guardado.html" method="GET">
+        <!--EL VALUE ES EL QUE ENVIA EL FORMULARIO-->
+        <!--EL VALUE NULO O VACIO NOS SIRVE COMO UN PLACEHOLDER-->
+        <fieldset>
+
+        <legend><h1>Nombre del formulario</h1></legend>
+        <select name="carros" id="carros" required>
+            <option value="">Seleccione un carro...</option>
+            <option value="1">Volvo</option>
+            <option value="bmw">BMW</option>
+            <option value="fre1">Ferrary</option>
+
+        </select>
+        <br>
+        <br>
+        <form action="C:\xampp\htdocs\DesarrolloWeb\guardado.html" method="GET">
+            <select name="carros" id="carros" required>
+                <option value="">Seleccione un carro...</option>
+                <option value="1">Volvo</option>
+                <option value="bmw" selected>BMW</option>
+                <option value="fre1">Ferrary</option>
+    
+            </select>
+            <br>
+            <br>
+            <label for="comentarios">Comentarios: </label>
+            <br>
+            <br>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="5" placeholder="Ingrese su opinion..."></textarea>
+            <br>
+            <br>
+
+        <input type="submit" value="Guardar">
+    </fieldset>
+    </form>
+    
+</body>
+</html>
