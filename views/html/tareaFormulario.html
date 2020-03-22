@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Tarea</title>
+</head>
+<body>
+    
+    <form action="C:\xampp\htdocs\DesarrolloWeb\views\html\retoFormulario.html" method="GET">
+       
+        <fieldset style="background-color: khaki;">
+            <label for="correo">Email </label>
+            <input type="email" name="correo" id="correo">
+
+            <label for="contrasena">Password </label>
+            <input type="password" name="contrasena" id="contrasena">
+            <br><br>
+
+            <label for="adress">Adress</label>
+            <input type="text" name="adress" id="adress" maxlength="100" size="54">
+            <br><br>
+
+            <label for="adress1">Adress 2</label>
+            <input type="text" name="adress1" id="adress1" maxlength="100" size="54">
+            <br><br>
+
+            <label for="city">City </label>
+            <input type="text" name="city" id="city">
+
+            <label for="state">State </label>
+            <select name="state" id="state" required>
+                <option value="">Elije tu estado...</option>
+                <option value="statu1">Aguas Calientes</option>
+                <option value="statu2">Durango</option>
+                <option value="statu3">Jalisco</option>
+                <option value="statu4">Veracruz</option>
+                <option value="statu5">Zacatecas</option>
+            </select>
+
+            <label for="codigoPostal">Zip </label>
+            <input type="text" name="codigoPostal" id="codigoPostal">
+            <br><br>
+
+            <input type="checkbox" id="check" name="check" value="Revisado">
+            <label for="check"> Check me out </label><br>
+            
+            <br><br>
+
+            <input style="background-color: #99CCFF" value="Sign in" name="button" type="submit"/> 
+    </fieldset>
+    </form>
+    
+</body>
+</html>
