@@ -1,6 +1,6 @@
 p {
     text-align: center;
-    color: red;
+   
 }
 
 #id_p {
@@ -8,7 +8,25 @@ p {
     color: darkgoldenrod;
 }
 
-.right-red {
+.right-deeppink {
     text-align: right;
     color: deeppink;
+}
+
+p.red {
+    text-align: center;
+    color: red;
+}
+
+.brown {
+    color: brown;
+}
+
+
+.large{
+    font-size: 25px;
+}
+
+h1, h2, p {
+    font-family: chiller;
 }
