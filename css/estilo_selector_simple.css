@@ -1,0 +1,14 @@
+p {
+    text-align: center;
+    color: red;
+}
+
+#id_p {
+    text-align: left;
+    color: darkgoldenrod;
+}
+
+.right-red {
+    text-align: right;
+    color: deeppink;
+}
