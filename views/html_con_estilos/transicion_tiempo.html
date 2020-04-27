@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transicion de tiempo</title>
+    <style>
+        div{
+            width: 100px;
+            height: 50px;
+            background-color: hotpink;
+            color: white;
+            font-weight: bold;
+            transition: width 3s;
+        }
+
+        #a{
+            transition-timing-function: linear;
+        }
+
+        #b{
+            transition-timing-function: ease;
+        }
+
+        #c{
+            transition-timing-function: ease-in;
+        }
+
+        #d{
+            transition-timing-function: ease-out;
+        }
+
+        #e{
+            transition-timing-function: ease-in-out;
+        }
+
+        div:hover{
+            width: 300px;
+        }
+
+
+    </style>
+<body>
+
+    <div id="a">Linear</div>
+    <div id="b">Ease</div>
+    <div id="c">Ease-in</div>
+    <div id="d">Ease-out</div>
+    <div id="e">Ease-in-out</div>
+    
+</body>
+</html>
