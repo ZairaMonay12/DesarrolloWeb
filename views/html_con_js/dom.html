@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+
+<body>
+
+    <input id="1" type="text">
+    <p>Parrafo</p>
+    <h3 name="titulo">Hola mundo!!!!!!!!!!!</h3>
+    <h3 class="clase">Zaira</h3>
+    <h3 class="clase">Monay</h3>
+
+
+    <script type="text/javascript">
+        document.getElementById('1').value = 'Monay';
+        var porTag = document.getElementsByTagName('p');
+        var porName = document.getElementsByName('titulo');
+        var porClase = document.getElementsByClassName('clase');
+
+        console.log(porTag);
+        console.log(porName[0].innerHTML);
+        console.log(porClase[0].innerHTML);
+        console.log(porClase[1].innerHTML);
+    </script>
+
+</body>
+
+</html>
